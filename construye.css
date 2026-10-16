@@ -1,0 +1,103 @@
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+
+}
+
+h2,h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center, justify;
+}
+
+nav{
+    background-color:rgb(31, 120, 31);  
+    padding: 10px 20px; 
+}
+
+ nav a {
+    color: white;
+    
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 30px;
+    border: 5px solid rgb(5, 128, 3);
+    padding: 20px;
+}
+
+img{
+     display: block;
+    margin: auto;
+    
+}
+
+table{
+    text-align: center;
+    border-color: black;
+}
+
+th{
+
+    background: black;
+    color: white;
+}
+
+.vid h3 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.vid video{
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+li{
+    font-family: sans-serif;
+}
+
+.lista{
+    border: 5px solid rgb(1, 30, 1);
+    
+}
+
+.lista p{
+    text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: rgba(0, 0, 255, 0.775);
+}
+
+
+@media (max-width: 480px) {
+    img {
+        grid-template-columns: 1fr;
+    }
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navegacion a {
+        display: block;
+    }
+    p {
+        padding: 20px;
+    }
+}
